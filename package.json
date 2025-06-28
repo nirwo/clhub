@@ -10,9 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@azure/arm-compute": "^22.4.0",
+    "@azure/arm-costmanagement": "^1.0.0-beta.1",
+    "@azure/arm-resources": "^6.1.0",
+    "@azure/arm-subscriptions": "^5.1.0",
+    "@azure/identity": "^4.10.1",
+    "dotenv": "^17.0.0",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "vsphere": "^0.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
