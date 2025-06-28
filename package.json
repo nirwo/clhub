@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "list-vms": "node scripts/listAzureVMs.mjs"
   },
   "dependencies": {
     "@azure/arm-compute": "^22.4.0",
@@ -22,6 +23,8 @@
     "vsphere": "^0.0.1"
   },
   "devDependencies": {
+    "@types/node": "^20.11.25",
+    "ts-node": "^10.9.2",
     "@eslint/js": "^9.9.1",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
