@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "list-vms": "node scripts/listAzureVMs.mjs"
+    "list-vms": "node scripts/listAzureVMs.mjs",
+    "azure-setup": "node scripts/azureWizard.mjs"
   },
   "dependencies": {
     "@azure/arm-compute": "^22.4.0",
@@ -20,6 +21,7 @@
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "inquirer": "^9.1.5",
     "vsphere": "^0.0.1"
   },
   "devDependencies": {
